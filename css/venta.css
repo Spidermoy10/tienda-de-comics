@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.container-products{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product {
+	padding: 60px;
+	text-align: center;
+}
+
+.product__img {
+	width: 200px;
+	height: 300px;
+}
+.product__title{
+	font-family: 'Lato', sans-serif;
+	margin: 20px;
+}
+.product__price{
+	font-family: 'Lato', sans-serif;
+	color: red;
+	font-weight: bold;
+	margin: 10px;
+	display: block;
+}
+
+.product__img{
+	width: 200px;
+	height: -90px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px;
+	cursor: pointer;
+	margin-top: -20px;
+}
+
+.container-products article:hover > img {
+	transform: scale(1.1);
+	transition: all 500ms ease-out;
+}
+
+.product_img{
+	width: 250px;
+	height: -90px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px;
+	cursor: pointer;
+	margin-top: -20px;
+}

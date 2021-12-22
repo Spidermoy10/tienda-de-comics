@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<meta charset = "utf-8">
+		<title>Asgard Comics.</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/portada.css">
+		<link rel="stylesheet" type="text/css" href="css/estiloMenu.css">
+		<link rel="stylesheet" type="text/css" href="css/fontello.css">
+		<link rel="stylesheet" type="text/css" href="css/compra.css">
+		
+	</head>
+
+	<body>
+
+	<main>
+		<section id="portada">
+			<img src="imagene/portada.jpg">
+		</section>
+	
+		<div id="header">
+			<ul class="nav">
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/asgard%20comics.html">Inicio</a></li>
+				
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/Comics.html">Comics</a>
+					<ul>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/MarvelComics.html">Marvel Comics</a></li>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/DcComics.html">DC Comics</a></li>
+				</li>
+					</ul>
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/mangaVenta.html">Mangas.</a></li>
+
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/anime.html">Anime</a>
+					<ul>
+					<li><a href="">Figuras</a>
+						<li><a href="">Funko Pops</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/coleccionables.html">Coleccionables</a>
+					<ul>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/marvelcolect.html">Marvel</a></li>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/dccolect.html">DC</a></li>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/replicas.html">Réplicas</a></li>
+
+					</ul>
+				</li>
+
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/peliculas.html">Películas.</a>
+					<ul>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/ucm.html">UCM</a></li>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/seriesdc.html">DCUniverse</a></li>
+					</ul>
+				</li>
+				
+				
+
+				<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/series.html">Series</a>
+					<ul>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/seriesucm.html">UCM</a></li>
+						<li><a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/dc.html">DCUniverse</a></li>
+					</ul>
+				</li>
+				
+				
+				
+			</ul>
+		</div>
+
+
+
+	<section id="contenido">
+		<h1>Procesar Compra.</h1>
+	</section>
+
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<form id="procesar-pago" action="#" method="POST">
+					<div class="form-group row">
+						<label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :</label>
+						<div class="col-12 col-md-10">
+							<input type="text" class="form-control" id="destinatario"
+								placeholder="Ingrese su nombre" name="destinatario" >
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+						<div class="col-12 col-md-10">
+							<input type="text" class="form-control" id="cc_to" placeholder="Ingresa tu correo" name="cc_to" >
+						</div>
+					</div>
+
+					<div id="carr" class="table-responsive">
+						<table class="table" id="lista-compra">
+							<thead>
+								<tr>
+									<th scope="col">Imagen</th>
+									<th scope="col">Nombre</th>
+									<th scope="col">Precio</th>
+									<!-- <th scope="col">Sub Total</th>-->
+									<th scope="col">Eliminar</th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+							<tr>
+								<th colspan="4" scope="col" class="text-right">SUB TOTAL :</th>
+								<th scope="col">
+									<p id="subtotal"></p>
+								</th>
+								<!-- <th scope="col"></th> -->
+							</tr>
+							<tr>
+								<th colspan="4" scope="col" class="text-right">IVA :</th>
+								<th scope="col">
+									<p id="igv"></p>
+								</th>
+								<!-- <th scope="col"></th> -->
+							</tr>
+							<tr>
+								<th colspan="4" scope="col" class="text-right">TOTAL :</th>
+								<th scope="col">
+									<p id="total"></p>
+								</th>
+								<!-- <th scope="col"></th> -->
+							</tr>
+						</table>
+					</div>
+					<div class="row justify-content-center" id="loaders">
+						<img id="cargando" src="ventaM/cargando.gif" width="220">
+					</div>
+					
+
+					<div class="row justify-content-between">
+						<div class="col-md-4 mb-2">
+							<a href="file:///C:/Users/DELL/Desktop/Escuela/7%C2%BA%20semestre/Programacion%20WEB/Phyton/Nueva%20carpeta/borrame/Repositorios/Python/Proyecto/asgard%20comics.html" class="btn btn-info btn-block">Seguir comprando</a>
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<button type="submit" class="btn btn-success btn-block" id="procesar-compra">Realizar compra</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</main>
+
+	<footer>
+		<div class="contenedor">
+			<p class="copy">Asgard Comics &copy;  |  Todos los derechos reservados a sus respectivos autores y editoriales.</p>
+			<p class="copy">(Multiplaza Aragon) Av. Carlos Hank Gonzales #130 Local 163, Edo. De México.</p>
+			<div class="redes">
+				<a class="icon-facebook" href="https://www.facebook.com/AsgardComicsLosNueveMundos"></a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/carrito.js"></script>
+	<script src="js/compra.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		emailjs.init('user_53Frzjrsz3G5YFTYIeKH3')
+	  </script>
+</html>

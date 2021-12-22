@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url(portada.css);
+@import url(contenedor.css);
+@import url(venta.css);
+
+* {
+				margin:0px;
+				padding:0px;
+				box-sizing: border-box;
+			}
+
+			
+			#header {
+				margin-top: -30px;
+				width: 100%;
+				height: 40px;
+				background-color: black;
+				font-family: 'Lato', sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				height: 100%;
+
+			}
+			section{
+				width: 100%;
+				margin-bottom: 25px;
+			}
+
+			#contenido {
+				text-align: center;
+				font-family: fantasy;
+				margin-top: 70px;
+				font-family: 'Lato', sans-serif;
+				font-size: 25px;
+				text-decoration: none;
+			}
+
+			#contenido h2 {
+				font-family: 'Lato', sans-serif;
+				font-size: 30px;
+			}
+
+			#contenido img{
+				width: 200px;
+				height: -90px;
+			}
+
+			footer .contenedor{
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 100px;
+				justify-content: center;
+				padding-bottom: 30px;
+			}
+
+			.redes{
+				width: 100%;
+				text-align: center;
+				font-size: 28px;
+				margin-top: 30px;
+			}
+
+			.copy{
+				font-size: 20px;
+				font-family: monospace;
+			}
+			.redes a {
+				color: black;
+				text-decoration: none;
+			}
+			.shop{
+				width: 100%;
+				text-align: center;
+				font-size: 28px;
+				margin-top: 25px;
+				cursor: pointer;
+			}
+			.shop li {
+				color: white;
+				text-decoration: none;
+			}
+
+			.icon-agregar {
+				color: black ;
+				text-decoration: none;
+				display: block;
+				margin: 20px 0;
+				cursor: pointer;
+			}
+
+			#carrito{
+				display: none;
+				font-size: 18px;
+			}
+
+			.icon-shop:hover #carrito{
+				display: block;
+				color: white;
+				position: absolute;
+				right: 50px;
+				width: 400px;
+				z-index: 1;
+				background: rgb(8, 3, 73);
+				padding: 20px;
+			}  
+			
+			
+			.botonCarrito{
+				background-color: lightgray;
+				color: black;
+			}
+
+			
+			

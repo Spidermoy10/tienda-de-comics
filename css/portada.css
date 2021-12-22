@@ -1,0 +1,34 @@
+#portada img {
+	width: 100%;
+	height: 100%;
+}
+
+
+#contenido .recomendaciones{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#contenido img{
+	align-content: center;
+}
+
+#contenido img{
+	width: 200px;
+	height: -90px;
+	max-width: 200px;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+
+#contenido img{
+	width: 100%;
+	height: 100%;
+}
+
+#contenido article:hover > a img{
+	transform: scale(1.1);
+	transition: all 500ms ease-out;
+}
